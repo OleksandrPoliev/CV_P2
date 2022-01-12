@@ -1,0 +1,38 @@
+/* If you like this, be sure to ❤️ it. */
+.toggle-box {
+  display: none;
+}
+.toggle-box + label {
+  display: block;
+}
+.toggle-box + label + div {
+  display: none;
+}
+.toggle-box:checked + label + div {
+  display: block;
+  background: #efefef;
+  padding:5px;
+}
+/* demo position */
+.demo {
+    margin: 5% 10%;
+}
+.container {
+  height: 1.5rem;
+  overflow: hidden;
+}
+.dd a p {display:none;}
+.dd a:hover p {display:block;}
+
+#dev_id_Message {
+    width: 300px;
+    height: 200px;
+}
+.Message {
+    width: 300px;
+    height: 200px;
+}
+#Message {
+    width: 300px;
+    height: 200px;
+}
